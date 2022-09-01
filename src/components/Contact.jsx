@@ -1,3 +1,4 @@
+import { clear } from '@testing-library/user-event/dist/clear'
 import React from 'react'
 
 const Contact = () => {
