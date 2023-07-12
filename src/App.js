@@ -4,10 +4,14 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import React, { useEffect } from 'react';
+import './index';
 
 function App() {
+  
+
   return (
-    <div>
+    <div className="gradient-background">
       <Navbar/>  
       <Home/>
       <About/>
@@ -17,5 +21,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
